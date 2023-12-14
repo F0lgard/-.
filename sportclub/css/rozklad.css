@@ -1,0 +1,656 @@
+body {
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: jura;
+}
+
+.plashka {
+    background-color: black;
+    padding: ;
+}
+
+.main {
+    flex: 1 1 auto;
+    
+}
+
+.fon-roz {
+position: absolute;
+width: 100%;
+height: 1977px;
+left: 0px;
+top: 784px;
+
+background: #FFFFFF;
+}
+
+.name-case-r {
+    position: absolute;
+    display: flex;
+    margin-top: 837px;
+    margin-left: 618px;
+    
+}
+
+.name-case-r li {
+    margin-left: 8px;
+}
+
+.scobaroz {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 87px;
+
+color: #FFF500;
+
+}
+
+.name-rozklad {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+margin-top: 16px;
+color: #000000;
+}
+
+.grid-container {
+    position: absolute;
+    margin-top: 1065px;
+    margin-left: 205px;
+    display: grid;
+    grid-template-columns: repeat(7, 175px); /* 7 колонок шириною 86.08px */
+    grid-template-rows: repeat(13, 86.08px); /* 13 рядків висотою 175px */
+    gap: 0px; /* Проміжок між клітинками */
+  }
+  
+  .grid-item {
+    background-color: transparent;
+    border: 3px solid #000000;
+border-radius: 15px;
+margin: -1px;
+  }
+  
+.grid-item:hover {
+    background-color: #FFF500;
+}
+
+
+.day-fon-rozklad {
+    position: absolute;
+width: 1225px;
+height: 41px;
+left: 205px;
+top: 1011px;
+
+background: #D9D9D9;
+border-radius: 15px;
+
+}
+
+.day1-rozklad {
+    position: absolute;
+width: 145px;
+height: 33px;
+left: 220px;
+top: 1012px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+}
+
+.day2-rozklad {
+    position: absolute;
+width: 125px;
+height: 33px;
+left: 402px;
+top: 1012px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.day3-rozklad {
+    position: absolute;
+    width: 104px;
+    height: 33px;
+    left: 585px;
+    top: 1012px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+    
+     
+}
+
+.day4-rozklad {
+    position: absolute;
+    width: 117px;
+    height: 33px;
+    left: 750px;
+    top: 1012px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+    
+}
+
+.day5-rozklad {
+    position: absolute;
+    width: 123px;
+    height: 33px;
+    left: 919px;
+    top: 1012px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+
+.day6-rozklad {
+    position: absolute;
+    width: 102px;
+    height: 33px;
+    left: 1102px;
+    top: 1012px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+
+.day7-rozklad {
+    position: absolute;
+    width: 92px;
+    height: 33px;
+    left: 1279px;
+    top: 1012px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+
+.time-fon-rozklad {
+    position: absolute;
+width: 68px;
+height: 1121px;
+left: 125px;
+top: 1065px;
+
+background: #D9D9D9;
+border-radius: 15px;
+
+}
+
+.time1 {
+    position: absolute;
+width: 37px;
+height: 63.78px;
+left: 140px;
+top: 1081px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.time2 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1167px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+
+.time3 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1250px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+
+.time4 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1336px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+
+.time5 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1422px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.time6 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1510px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.time7 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1595px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.time8 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1680px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.time9 {
+
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1770px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.time10 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1854px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.time11 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 1940px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.time12 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 2025px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.time13 {
+    position: absolute;
+    width: 37px;
+    height: 63.78px;
+    left: 140px;
+    top: 2110px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.fon-opus {
+    position: absolute;
+width: 100%;
+height: 562px;
+left: 0px;
+top: 2238px;
+
+background: #000000;
+}
+
+.name-case-o {
+    position: absolute;
+    display: flex;
+    margin-top: 2259px;
+    margin-left: 644px;
+    
+}
+
+.name-case-o li {
+    margin-left: 10px;
+}
+
+.scobaop {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 87px;
+
+color: #FFF500;
+
+}
+
+.name-opus {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+margin-top: 16px;
+color: #ffffff;
+}
+
+.info-opus {
+    position: absolute;
+width: 1250px;
+height: 408px;
+left: 145px;
+top: 2380px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+  .footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 300px;
+    color: white;
+    position: relative;
+    margin-top:  2780px;
+}
+
+.footer-content {
+    display: flex;
+  }
+
+
+.list-fw {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 213px;
+    
+}
+
+.list-fw li {
+    margin-left: 8px;
+}
+
+.scoba-footer {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+
+color: #FFF500;
+}
+
+.name-footer {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+margin-top: 7px;
+
+color: #D3D3D3;
+}
+
+.list-day {
+    margin-top: 55px;
+    margin-left: -256px;
+}
+
+.list-day li {
+    margin-top: 15px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+color: #D3D3D3;
+
+}
+
+.list-kon {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 41px;
+}
+
+.list-kon li {
+    margin-left: 8px;
+    
+}
+
+.list-kontakt {
+    margin-top: 55px;
+    margin-left: -185px;
+}
+
+.list-kontakt li {
+    margin-top: 15px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+color: #D3D3D3;
+
+}
+
+.list-osn {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 41px;
+}
+
+.list-osn li {
+    margin-left: 8px;
+    
+}
+
+.list-osnova {
+    margin-top: 55px;
+    margin-left: -175px;
+}
+
+.list-osnova li {
+    margin-top: 15px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+color: #D3D3D3;
+
+}
+
+.list-osnova a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.line-footer {
+    width: 100%;
+    height: 4px;
+    background: #FFF500; 
+    margin-top: -285px;
+}
+
+.img-footer {
+width: 310px;
+height: 183px;
+margin-left: 178px;
+margin-top: 45px;
+}
+
+.list-osnova a:hover {
+    color:#FFF500;
+}
+

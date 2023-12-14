@@ -1,0 +1,451 @@
+/* jura-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jura-v29-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* jura-500 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jura-v29-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/jura-v29-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/jura-v29-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* exo-2-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v20-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* open-sans-regular - cyrillic-ext_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-cyrillic-ext_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-600 - cyrillic-ext_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v35-cyrillic-ext_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body {
+    font-family: 'Jura';
+    height: 100%;
+}
+
+.page {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.plashka {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    flex: 1 1 auto;
+    
+}
+
+.fonPl {
+    position: absolute;
+width: 100%;
+height: 120px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
+.logoPl {
+    position: absolute;
+width: 171px;
+height: 101px;
+left: 125px;
+top: 10px;
+
+background: url(/img/Logo\ club\ \(1\).png);
+}
+
+.UserName {
+    position: absolute;
+
+height: 33px;
+left: 290px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+
+color: #FFF500;
+}
+
+.TPl1 {
+    position: absolute;
+width: 123px;
+height: 33px;
+left: 447px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+
+.TPl1:hover {
+    color:#FFF500;
+}
+
+
+.TPl2 {
+    /* Розклад */
+
+
+position: absolute;
+width: 110px;
+height: 33px;
+left: 636px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+color: #FFFFFF;
+
+}
+
+.TPl2:hover {
+    color:#FFF500;
+}
+
+
+.TPl3 {
+    /* Ціни */
+
+
+position: absolute;
+width: 56px;
+height: 33px;
+left: 804px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.TPl3:hover {
+    color:#FFF500;
+}
+
+
+.TPl4 {
+    /* Новини */
+
+
+position: absolute;
+width: 102px;
+height: 33px;
+left: 918px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.TPl4:hover {
+    color:#FFF500;
+}
+
+.TPl5 {
+    /* Послуги */
+
+
+position: absolute;
+width: 113px;
+height: 33px;
+left: 1078px;
+top: 44px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.TPl5:hover {
+    color:#FFF500;
+}
+
+.face {
+    position: absolute;
+width: 36px;
+height: 37px;
+left: 1206px;
+top: 47px;
+}
+
+.inst {
+    position: absolute;
+width: 44px;
+height: 44px;
+left: 1257px;
+top: 44px;
+
+background: url(logoinst);
+}
+
+.button-vxid {
+
+}
+
+.but-vxid {
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: 'Jura';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+
+    position: absolute;
+    width: 98px;
+    height: 53px;
+    left: 1317px;
+    top: 37px;
+    transition: ease-out 0.3s;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.but-vxid:hover {
+    box-shadow: inset 98px 0 0 0 #ffffff;
+    color: #000000;
+}
+
+.img-free {
+    position: absolute;
+width: 1519px;
+height: 663px;
+left: 0px;
+top: 120px;
+
+}
+
+.fon-free {
+    position: absolute;
+width: 1519px;
+height: 663px;
+left: 0px;
+top: 120px;
+
+background: rgba(255, 255, 255, 0.01);
+backdrop-filter: blur(4px);
+
+}
+
+.text-free {
+
+}
+
+.pershe {
+    position: absolute;
+width: 270px;
+height: 103px;
+left: 152.9px;
+top: 213px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 103px;
+
+color: #FFFFFF;
+
+}
+
+.n1 {
+    position: absolute;
+width: 23.98px;
+height: 58px;
+left: 422.73px;
+top: 213px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFF500;
+
+}
+
+.tren {
+    position: absolute;
+width: 477px;
+height: 103px;
+left: 152.9px;
+top: 330px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 103px;
+
+color: #FFFFFF;
+
+}
+
+.stick {
+    
+position: absolute;
+width: 66.95px;
+height: 73.5px;
+left: 650.58px;
+top: 342.5px;
+
+}
+
+.bezk {
+    position: absolute;
+width: 681px;
+height: 115px;
+left: 152.9px;
+top: 447px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 115px;
+
+color: #FFF500;
+
+}
+
+.free {
+    position: absolute;
+width: 109.93px;
+height: 58px;
+left: 833.46px;
+top: 447px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.button-free {
+
+}
+
+.but-free {
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: 'Jura';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+
+    position: absolute;
+    width: 391.75px;
+    height: 84px;
+    left: 573.63px;
+    top: 628px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 40px;
+    transition: ease-out 0.3s;
+    overflow: hidden;
+}
+
+.but-free:hover {
+    box-shadow: inset 391.75px 0 0 0 #ffffff;
+    color: #000000;
+}
